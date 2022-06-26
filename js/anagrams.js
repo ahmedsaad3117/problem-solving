@@ -65,5 +65,4 @@ function validAnagramObj(str1, str2) {
   return true;
 }
 
-console.log(validAnagramObj("aax", "axx"))
-
+console.log(validAnagramObj("aax", "axx"));
