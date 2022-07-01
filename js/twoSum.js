@@ -55,10 +55,9 @@
 
 // console.log(res);
 
+//Not created
 function twoSum(arr, target) {
-  for (let i = 0; i < arr.length - 1; i++) {
-    
-  }
+  for (let i = 0; i < arr.length - 1; i++) {}
   for (let j = i + 1; j < arr.length; j++) {
     let sum = arr[i] + arr[j];
     if (sum === target) {
@@ -70,3 +69,5 @@ function twoSum(arr, target) {
 let res = twoSum([-1, -2, -3, -4, -5], -8);
 
 console.log(res);
+
+  

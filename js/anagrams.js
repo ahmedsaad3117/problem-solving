@@ -26,6 +26,7 @@ function validAnagramFreq(str1, str2) {
   for (val of str1) {
     obj1[val] = ++obj1[val] || 1;
   }
+
   for (val of str2) {
     obj2[val] = (obj2[val] || 0) + 1;
   }
