@@ -1,6 +1,7 @@
 // Write a function that accepts sorted array of integers. the function should find the frist pair where the sum is 0.
 // return an array that includes both values that sum to zero or undefiend if pair does not exist.
 
+//Created
 function sumZeroN2(arr) {
   let pair = undefined;
   for (let i = 0; i <= arr.length; i++) {
@@ -18,6 +19,7 @@ function sumZeroN2(arr) {
 const res = sumZeroN2([4, -1, -3, 3, 0, 1, 3, 2]); // O(n^2)
 console.log(res);
 
+//Created
 // Shoud be sorted
 function sumZeroN(arr) {
   let sum = 0;

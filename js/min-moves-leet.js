@@ -2,6 +2,7 @@
 // In one move, you can increment or decrement an element of the array by 1.
 // Test cases are designed so that the answer will fit in a 32-bit integer.
 
+//Not Created yet
 function minMove(arr) {
   if (arr.length === 1) {
     return 0;
@@ -23,5 +24,3 @@ function minMove(arr) {
 const result = minMove([1, 2, 3]);
 
 console.log(result);
-
-

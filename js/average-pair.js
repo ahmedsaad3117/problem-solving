@@ -2,7 +2,6 @@
 // determind if there is a pair of calues in the array where the average of the pair equals the target avarage.
 
 function averagePair(arr, target) {
-  arr.sort((a, b) => a > b);
 
   let start = 0;
   let end = arr.length - 1;
@@ -20,3 +19,7 @@ function averagePair(arr, target) {
   }
   return false;
 }
+
+const resutl = averagePair([2, 4, 7, 3, 1], 5);
+
+console.log(resutl)

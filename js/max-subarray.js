@@ -2,7 +2,6 @@
 // the function should calculate the maximum sum of n consecutive elements in the array
 
 // Level Created
-
 function maxSubArraySum(arr, n) {
   if (arr.length < n) return;
 
@@ -12,6 +11,7 @@ function maxSubArraySum(arr, n) {
   for (let i = 0; i < n; i++) {
     maxSum += arr[i];
   }
+  
   for (let i = 1; i < arr.length - n + 1; i++) {
     tempSum = maxSum + arr[n + i - 1] - arr[i - 1];
 
