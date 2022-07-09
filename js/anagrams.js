@@ -50,7 +50,7 @@ function validAnagramObj(str1, str2) {
   }
 
   const lookup = {};
-
+ 
   for (let i = 0; i < str1.length; i++) {
     let letter = str1[i];
     lookup[letter] ? (lookup[letter] += 1) : (lookup[letter] = 1);
