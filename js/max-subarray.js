@@ -6,7 +6,7 @@ function maxSubArraySum(arr, n) {
   if (arr.length < n) return;
 
   let maxSum = 0;
-  let tempSum = 0;
+  let tempSum = 0;  
 
   for (let i = 0; i < n; i++) {
     maxSum += arr[i];
