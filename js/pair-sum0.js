@@ -20,6 +20,7 @@ const res = sumZeroN2([4, -1, -3, 3, 0, 1, 3, 2]); // O(n^2)
 console.log(res);
 
 //Created
+
 // Shoud be sorted
 function sumZeroN(arr) {
   let sum = 0;
