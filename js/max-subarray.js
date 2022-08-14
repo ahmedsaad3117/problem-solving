@@ -8,14 +8,14 @@ function maxSubArraySum(arr, n) {
   let maxSum = 0;
   let tempSum = 0;
 
-  for (let i = 0; i < n; i++) { 
+  for (let i = 0; i < n; i++) {
     maxSum += arr[i];
-  } 
- 
-  for (let i = 1; i < arr.length - n + 1; i++) {  
-    tempSum = maxSum + arr[n + i - 1] - arr[i - 1]; 
-  
-    console.log(maxSum, tempSum); 
+  }
+
+  for (let i = 1; i < arr.length - n + 1; i++) {
+    tempSum = maxSum + arr[n + i - 1] - arr[i - 1];
+
+    console.log(maxSum, tempSum);
     maxSum = Math.max(tempSum, maxSum);
   }
 

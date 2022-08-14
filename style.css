@@ -1,0 +1,15 @@
+p {
+  border-style: solid;
+  border-color: 5px;
+}
+
+p {
+  border-style: solid;
+  border-radius: 5px;
+}
+
+p {
+  border-bottom: solid; /*OPTIONAL bottom: top, #left# */
+  border-width: 5px;
+}
+

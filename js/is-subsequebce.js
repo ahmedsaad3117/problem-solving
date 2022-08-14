@@ -1,4 +1,4 @@
-// Write a function called isSubsequence which is take a two string and cheakes whether the characters in the frist string
+ // Write a function called isSubsequence which is take a two string and cheakes whether the characters in the frist string
 // form a subsequebce of the characters in the second string.
 
 function isSubsequence(subString, fullString) {
@@ -9,7 +9,7 @@ function isSubsequence(subString, fullString) {
 
   while (fullCounter < fullString.length - subString.length) {
     if (subString[subCounter] === fullString[fullCounter]) {
-      subCounter++;
+      subCounter++; 
     }
     if (subCounter === subString.length) return true;
 

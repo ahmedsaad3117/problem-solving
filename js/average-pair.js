@@ -13,13 +13,14 @@ function averagePair(arr, target) {
       return true;
     } else if (average < target) {
       start++;
-    } else {
+    } else {  
       end--;
-    }
-  }
-  return false;
-}
+    } 
+  } 
+  return false; 
+} 
 
-const resutl = averagePair([2, 4, 7, 3, 1], 5);
+const resutl = averagePair([2, 4, 7, 3, 1], 5);  
 
-console.log(resutl)
+console.log(resutl) 
+ 
