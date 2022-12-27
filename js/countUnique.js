@@ -12,6 +12,7 @@ function countUniqueValPointers(arr) {
   let poinert = 0;
   let tempPoinert = poinert + 1;
   let uniqueVal = 0;
+  
   while (poinert < arr.length) {
     if (arr[poinert] !== arr[tempPoinert]) {
       poinert = tempPoinert;

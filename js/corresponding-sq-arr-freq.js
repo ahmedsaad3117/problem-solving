@@ -20,6 +20,7 @@ function corrSqr(arrr1, arrr2) {
 function corrSqrObj(arrObj1, arrObj2) {
   const obj1 = {};
   const obj2 = {};
+  
 
   for (val of arrObj1) {
     obj1[val] = ++obj1[val] || 1;
